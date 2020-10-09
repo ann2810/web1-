@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <link rel = "stylesheet" href ="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div calss ="contain-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+                <h1>hahaah</h1>
+            </div>
+        </div>
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
